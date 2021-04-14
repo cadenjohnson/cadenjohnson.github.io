@@ -4,7 +4,7 @@ body {
   background-image: url("https://cadenjohnson.github.io/gator1.jpg"), radial-gradient(circle, #636363, #202020);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 200px, cover;
   background-attachment: fixed;
 }
 
