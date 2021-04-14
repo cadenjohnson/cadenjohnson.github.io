@@ -32,12 +32,6 @@ h2 {
   color: white;
 }
 
-.menu {
-  border: 2px solid;
-  text-align: center;
-  width: 200px;
-}
-
 h3 {
   display: inline-block;
   font-weight: 800;
@@ -45,6 +39,12 @@ h3 {
   text-align: center;
   padding: 10px 25px;
   color: #D6B47E;
+}
+
+.menu {
+  border: 2px solid;
+  text-align: center;
+  width: 200px;
 }
 
 .container {
