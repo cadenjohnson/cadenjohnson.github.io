@@ -1,6 +1,7 @@
 body {
   font-family: 'Raleway', sans-sarif;
   background-image: url("https://cadenjohnson.github.io/darkbrown_wood.jpg");
+  background-image: radial-gradient(circle, #3A3A3A, #202020), url("https://cadenjohnson.github.io/gator1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
