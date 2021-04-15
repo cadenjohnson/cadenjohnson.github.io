@@ -2,6 +2,11 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: 'BrandonGrotesque-Bold', Helvetica, Arial, sans-serif;
+  background-image: radial-gradient(circle, #303030, #202020);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 a:link, a:visited {
