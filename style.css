@@ -55,20 +55,29 @@ h3 {
   color: #D6B47E;
 }
 
-#menu-outer {
-  height: 84px;
-}
 .menu {
-  display: table;
-  margin: 0 auto;
+  text-allign: center;
 }
-ul#horizontal-list {
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.75rem;
+  font-weight: 500;
+  font-family: 'BrandonGrotesque-Bold', Helvetica, Arial, sans-serif;
+}
+.menu span {
   min-width: 600px;
   list-style: none;
   padding-top: 20px;
 }
-ul#horizontal-list li {
-  display: inline;
+.listHorizontal {
+  display: flex;
+  justify-content: space-around;
+  color: #b6d8cf;
+  font-size:30px;
+  text-transform: uppercase;
+  list-style: none;
+}
 
 .profile-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cadenjohnson.github.io/profile.jpeg");
