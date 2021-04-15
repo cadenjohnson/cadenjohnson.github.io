@@ -15,14 +15,14 @@ h1 {
   font-weight: 600;
   text-align: center;
   font-size: 3rem;
-  color: #A92614;
+  color: white;
 }
 
 h2 {
-  display: inline-block;
+  font-family: 'BrandonGrotesque-Bold', Helvetica, Arial, sans-serif;
   text-align: center;
-  background-color: #D6B47E;
-  padding: 3px 10px;
+  font-weight: 500;
+  padding: 3px 15px;
   margin: 5px;
   font-size: 1.75rem;
   color: white;
