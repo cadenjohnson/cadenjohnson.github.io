@@ -1,10 +1,7 @@
-body {
-  font-family: 'Raleway', sans-sarif;
-  background-image: radial-gradient(circle, #636363, #202020), url("https://cadenjohnson.github.io/gator1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover, 800px;
-  background-attachment: fixed;
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'BrandonGrotesque-Bold', Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -46,23 +43,22 @@ h3 {
   width: 200px;
 }
 
-.container {
-  min-width: 775px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+.profile-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cadenjohnson.github.io/profile.jpeg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-.toppic {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-2/cafe.jpg");
-
-  background-size: cover;
-  min-width: 964px;
-  min-height: 422px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.profile-text {
   text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 .supporting-container {
