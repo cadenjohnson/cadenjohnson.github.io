@@ -55,6 +55,16 @@ h3 {
   color: #D6B47E;
 }
 
+h4 {
+  font-family: 'BrandonGrotesque-Bold', Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-weight: 500;
+  padding: 3px 15px;
+  margin: 5px;
+  font-size: 1rem;
+  color: white;
+}
+
 .listHorizontal {
   display: block;
   justify-content: space-around;
