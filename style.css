@@ -97,8 +97,14 @@ h4 {
   display: flex;
   justify-content: center;
   allign-items: center;
-  min-height: 300px;
   padding: 45px 0 0 0;
+}
+.textbox div {
+  background-size: cover;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  margin: 0 30px;
 }
 
 .supporting-container {
