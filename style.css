@@ -56,8 +56,8 @@ h3 {
 }
 
 .listHorizontal {
-  display: flex;
-  justify-content: center;
+  display: block;
+  justify-content: space-around;
   color: #b6d8cf;
   font-size:30px;
   text-transform: uppercase;
