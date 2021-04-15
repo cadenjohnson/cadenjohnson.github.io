@@ -4,6 +4,19 @@ body, html {
   font-family: 'BrandonGrotesque-Bold', Helvetica, Arial, sans-serif;
 }
 
+a:link, a:visited {
+  background-color: none;
+  color: white; 
+  border: 2px solid white;
+  padding: 10px 20px;
+  text-allign: center;
+  display: inline-block;
+}
+a:hover, a:active {
+  color: black;
+  background-color: white;
+}
+
 h1 {
   text-align: center;
   text-transform: uppercase;
