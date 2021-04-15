@@ -55,11 +55,20 @@ h3 {
   color: #D6B47E;
 }
 
-.menu {
-  border: 2px solid;
-  text-align: center;
-  width: 200px;
+#menu-outer {
+  height: 84px;
 }
+.menu {
+  display: table;
+  margin: 0 auto;
+}
+ul#horizontal-list {
+  min-width: 600px;
+  list-style: none;
+  padding-top: 20px;
+}
+ul#horizontal-list li {
+  display: inline;
 
 .profile-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cadenjohnson.github.io/profile.jpeg");
