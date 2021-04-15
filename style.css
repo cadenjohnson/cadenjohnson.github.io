@@ -113,5 +113,7 @@ h3 {
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 1.7rem;
-  width: 100%;  
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
