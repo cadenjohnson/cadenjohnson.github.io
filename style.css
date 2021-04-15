@@ -135,11 +135,11 @@ h4 {
 }
 
 .leftpic {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-2/events.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://cadenjohnson.github.io/tower.jpg");
 }
 
 .rightpic {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-2/roast.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://cadenjohnson.github.io/sign.jpg");
 }
 
 #footer {
