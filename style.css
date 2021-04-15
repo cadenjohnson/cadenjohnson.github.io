@@ -101,13 +101,30 @@ h4 {
   allign-items: center;
 }
 
+.widepic-container {
+  display: flex;
+  justify-content: center;
+  allign-items: center;
+  padding: 5px 0 0 0;
+}
+.widepic-container div {
+  background-size: cover;
+  min-width: 1000px;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+}
+.widepic {
+  background-image: url("https://cadenjohnson.github.io/beach.jpg");
+
 .supporting-container {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 45px 0 0 0;
 }
-
 .supporting-container div {
   background-size: cover;
   min-width: 450px;
