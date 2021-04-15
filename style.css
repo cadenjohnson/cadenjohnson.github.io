@@ -93,6 +93,14 @@ h4 {
   color: white;
 }
 
+.textbox {
+  display: flex;
+  justify-content: center;
+  allign-items: center;
+  min-height: 300px;
+  padding: 45px 0 0 0;
+}
+
 .supporting-container {
   display: flex;
   justify-content: center;
