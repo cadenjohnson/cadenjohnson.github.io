@@ -55,24 +55,9 @@ h3 {
   color: #D6B47E;
 }
 
-.menu {
-  text-allign: center;
-}
-.menu a {
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 1.75rem;
-  font-weight: 500;
-  font-family: 'BrandonGrotesque-Bold', Helvetica, Arial, sans-serif;
-}
-.menu span {
-  min-width: 600px;
-  list-style: none;
-  padding-top: 20px;
-}
 .listHorizontal {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   color: #b6d8cf;
   font-size:30px;
   text-transform: uppercase;
@@ -91,8 +76,8 @@ h3 {
 .profile-text {
   text-align: center;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 75%;
+  left: 25%;
   transform: translate(-50%, -50%);
   color: white;
 }
