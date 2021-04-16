@@ -71,6 +71,7 @@ h4 {
   color: #b6d8cf;
   font-size: 1.6rem;
   list-style: none;
+  min-hieght: 60px;
 }
 
 .profile-image {
