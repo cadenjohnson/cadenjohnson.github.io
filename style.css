@@ -105,7 +105,7 @@ h4 {
 
 .widepic-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://cadenjohnson.github.io/window.jpg");
-  min-height: 1500px;
+  min-height: 900px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
